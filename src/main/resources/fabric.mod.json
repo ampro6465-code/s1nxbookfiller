@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "s1nxbookfiller",
+  "version": "${version}",
+  "name": "s1nxBookFiller",
+  "description": "Adds a button to fill a writable book with 100 pages of random characters.",
+  "authors": ["s1nx"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.s1nx.bookfiller.client.S1nxBookFillerClient"
+    ]
+  },
+  "mixins": [
+    "s1nxbookfiller.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

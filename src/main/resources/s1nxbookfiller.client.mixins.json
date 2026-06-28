@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.s1nx.bookfiller.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BookEditScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
